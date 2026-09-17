@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><span>Home</span></a>
+
+        <ul class="nav-links"> 
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <div class="visit-btn">
+            <a href="https://github.com/weienn2" target="_blank" rel="noopener noreferrer">
+                Visit Github <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+
+    </header>
+
+    <section class="main">
+        <div class="main-content">
+            <div class="intro">
+                <div class="text">
+                    <h2>HI, I'M</h2>
+                    <h1>Wei En</h1>
+                    <h3>Computer Science Graduate</h3>
+                    <p>Interested in software development, AI and building meaningful solutions.</p>
+                </div>
+                <div class="btn-grp">
+                    <a href="#projects" id="btn1">View My Projects ➔</a>
+                    <a href="Tan Wei En Resume.pdf" id="btn2">Download Resume <i class="fa-solid fa-download"></i></a>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/weienn2" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/tan-wei-en-667a521a9/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <i class="fa-solid fa-envelope" onclick="copyEmail()"></i>
+                </div>
+            </div>
+
+            <img src="kitty.JPG" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-info">
+            <div class="about-me">
+                <h2>ABOUT ME</h2>
+                <h3>A bit about <span>me</span></h3>
+                <p>I'm a Computer Science graduate with a strong interest in software development and artificial intelligence. I enjoy learning new technologies, solving problems and building things that are simple, useful and user-friendly.</p>
+                <p>I'm currently looking for opportunities to start my career and continue growing as a developer.</p>
+            </div>
+
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>CS Graduate</h3>
+                    <p>Bachelor of Computer Science (Hons) with specialisation in AI</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-book-open"></i>
+                    <h3>Education</h3>
+                    <p>Taylor's University - graduated in July 2026</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-star"></i>
+                    <h3>CGPA</h3>
+                    <p>3.77/4.0 First Class Honours</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Location</h3>
+                    <p>Subang Jaya, Selangor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="experience" id="experience">
+        <div class="experience-info">
+            <div class="title">
+                <h2>EXPERIENCE</h2>
+                <h3>Work <span>Experience</span></h3>
+                <p>My internship experience and key learnings.</p>
+            </div>
+            <div class="work-experience">
+                <p>Sep 2025 - Jan 2026</p>
+                <h3>Technology Consulting Intern</h3>
+                <p>Ernst & Young Consulting Sdn Bhd</p>
+                <ul>
+                    <li>Supported frontend development using Razor, JavaScript and CSS.</li>
+                    <li>Worked on UI layouts, popups, content display and interaction improvements.</li>
+                    <li>Assisted with testing and debugging web applications.</li>
+                    <li>Assisted with UI improvements for a Flutter-based mobile application.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="project-info">
+            <div class="project-heading">
+                <div class="project-text">
+                    <h2>PROJECTS</h2>
+                    <h3>My <span>Projects</span></h3>
+                    <p>Here are some projects I've worked on, including personal and university projects.</p>
+                </div>
+                <div class="btn">
+                    <a href="https://github.com/weienn2" target="_blank" rel="noopener noreferrer">
+                        View more on Github
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-cards">
+                <div class="project-card">
+                    <div class="label"><p>Self</p></div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>My Portfolio Website</h3>
+                    <div class="tags">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                    </div>
+                    <p>A responsive personal portfolio website built to showcase my experience, skills and projects.</p>
+                </div>
+                <div class="project-card">
+                    <div class="label"><p>Uni</p></div>
+                    <i class="fa-brands fa-ethereum"></i>
+                    <h3>Capstone Project - MediPear</h3>
+                    <div class="tags">
+                        <p>Python</p>
+                        <p>Machine Learning</p>
+                        <p>NLP</p>
+                    </div>
+                    <p>A blockchain-based medical learning platform with an NLP-based trust evaluation system to assess the credibility of user-submitted medical content.</p>
+                </div>
+                <div class="project-card">
+                    <div class="label"><p>Uni</p></div>
+                    <i class="fa-solid fa-bone"></i>
+                    <h3>X-Ray Fracture Detection</h3>
+                    <div class="tags">
+                        <p>Python</p>
+                        <p>Computer Vision</p>
+                    </div>
+                    <p>Used deep learning (ResNet50) to classify and detect fractures from X-ray images.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skill-info">
+            <div class="skill-heading">
+                <h2>SKILLS</h2>
+                <h3>Technical <span>Skills</span></h3>
+            </div>
+            <div class="skill-cards">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-java"></i>
+                    <p>Java</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <p>SQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-git"></i>
+                    <p>Git</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-figma"></i>
+                    <p>Figma</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-brain"></i>
+                    <p>Machine Learning</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-eye"></i>
+                    <p>Computer Vision</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-info">
+            <div class="contact-heading">
+                <h2>CONTACT</h2>
+                <h3>Let's <span>Connect</span></h3>
+                <p>I'm currently looking for opportunities. Feel free to reach out!</p>
+            </div>
+            <div class="my-contacts">
+                <div class="my-contact">
+                    <i class="fa-solid fa-envelope" ></i>
+                    <p onclick="copyEmail()">Gmail</p>
+                </div>
+                <div class="my-contact">
+                    <i class="fa-brands fa-square-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/tan-wei-en-667a521a9/" target="_blank" rel="noopener noreferrer">
+                        <p>LinkedIn</p>
+                    </a>
+                </div>
+                <div class="my-contact">
+                    <i class="fa-brands fa-square-github"></i>
+                    <a href="https://github.com/weienn2" target="_blank" rel="noopener noreferrer">
+                        <p>Github</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="catbg.png" alt="">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
